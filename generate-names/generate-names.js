@@ -8,7 +8,7 @@ second = fs.readFileSync('2.txt').toString().split('\n')
 first.pop()
 second.pop()
 
-for (let i = 0;i < 10;i++) {
+for (let i = 0;i < 2500;i++) {
     const x = Math.floor(Math.random() * first.length)
     const y = Math.floor(Math.random() * second.length)
     console.log(first[x], second[y])
